@@ -24,6 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%@....");
+    
     //Init
     _emojiTags = @[@"[/emoji_1]", @"[/emoji_2]", @"[/emoji_3]", @"[/emoji_4]"];
     _emojiImages = @[[UIImage imageNamed:@"emoji_1"], [UIImage imageNamed:@"emoji_2"],
